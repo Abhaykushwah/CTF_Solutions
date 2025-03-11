@@ -1,0 +1,5 @@
+open in wireshark 
+filter for : tcp.stream 
+and follow the tcp stream (start from any packet)
+at tcp.stream eq 5 -> packet is not encrypted and in the data transmission their is a string.
+copy that and decode with rot13

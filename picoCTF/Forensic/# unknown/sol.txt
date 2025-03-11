@@ -1,0 +1,6 @@
+use exiftool on the given file
+then copy the attribute url and decode this with base64 
+that's it 
+
+here is the flag, but not showing on picoCTF
+picoCTF{ME74D47A_HIDD3N_4dabddcb}

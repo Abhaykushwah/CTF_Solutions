@@ -1,0 +1,2 @@
+open it in code editor and look for <text in the bottom and then formate it correctly
+picoCTF{3nh4nc3d_24374675}

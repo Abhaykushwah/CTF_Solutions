@@ -1,0 +1,4 @@
+type flag2of2-final.pdf
+>> PNG
+rename it to .png
+got the first part their and second part is in the pdf formate itself

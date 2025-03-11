@@ -1,0 +1,21 @@
+import string
+
+alphabet = string.ascii_lowercase
+alphabet += "0123456789_"
+flag_enc = [104, 372, 110, 436, 262, 173, 354, 393, 351, 297, 241, 86, 262, 359, 256, 441, 124, 154, 165, 165, 219, 288, 42]
+
+flag = ""
+
+for char in flag_enc:
+	# print(char)
+	# pow(base, exp, mod)
+	# In Python, pow(base, exp, mod) computes (base ** exp) % mod efficiently.
+	# If exp is negative, it calculates the modular multiplicative inverse of base modulo mod.
+	pos = pow(char, -1, 41) ## (char*x)%41=1
+	print(f"The modular inverse of {char} mod 41 is {pos}")
+	flag += alphabet[pos-1]
+
+print(flag)
+
+
+picoCTF{1nv3r53ly_h4rd_dadaacaa}

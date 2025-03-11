@@ -1,0 +1,5 @@
+rename the file extension to .zip and then extract it
+go to ppt/slideMasters/hidden
+capy those random strings
+and decode it with base64 got the flag
+# picoCTF{D1d_u_kn0w_ppts_r_z1p5}

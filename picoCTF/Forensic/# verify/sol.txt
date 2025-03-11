@@ -1,0 +1,4 @@
+sha256sum files/* >> hash.txt
+cat checksum.txt 
+cat hash.txt | grep "5848768e56185707f76c1d74f34f4e03fb0573ecc1ca7b11238007226654bcda"
+bash decrypt.sh files/8eee7195

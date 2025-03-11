@@ -1,0 +1,4 @@
+open in wireshark 
+follow the tcp stream, form packet no. 11
+at udp stream no. 6 
+you will get the flag
