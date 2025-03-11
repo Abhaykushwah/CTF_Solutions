@@ -1,0 +1,2 @@
+nc titan.picoctf.net 50971
+ncat titan.picoctf.net 50971

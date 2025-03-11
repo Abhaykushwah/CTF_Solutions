@@ -1,0 +1,8 @@
+go to ascii to hex converter
+for little endian -> write right to left 
+for bit endian -> write left to right
+
+ex. 
+cevat 
+little endian - 63 65 76 61 74
+big endian - 74 61 76 65 63

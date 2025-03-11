@@ -1,0 +1,11 @@
+git branch -a 
+git checkout feature/part-1
+		feature/part-2
+		feature/part-3
+
+
+picoCTF{t3@mw0rk_
+m@k3s_th3_dr3@m_
+w0rk_7ffa0077}
+
+picoCTF{t3@mw0rk_m@k3s_th3_dr3@m_w0rk_7ffa0077}
